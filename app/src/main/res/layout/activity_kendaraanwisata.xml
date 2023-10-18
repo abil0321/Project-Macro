@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kendaraanwisata">
+
+        <TextView
+            android:layout_width="169dp"
+            android:layout_height="66dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Kendaraan"
+            android:textColor="@color/black"
+            android:textSize="27dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/rectangle129"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="204dp" />
+
+        <ImageButton
+            android:id="@+id/myImageButton"
+            android:layout_width="65dp"
+            android:layout_height="71dp"
+            android:contentDescription="ImageButton"
+            android:src="@drawable/mobil"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="204dp">
+
+        </ImageButton>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/rectangle129"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+        <ImageButton
+            android:id="@+id/myImageButton1"
+            android:layout_width="65dp"
+            android:layout_height="71dp"
+            android:contentDescription="ImageButton"
+            android:src="@drawable/motor"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="318dp">
+
+        </ImageButton>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/rectangle129"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="431dp" />
+
+        <ImageButton
+            android:id="@+id/myImageButton2"
+            android:layout_width="65dp"
+            android:layout_height="71dp"
+            android:contentDescription="ImageButton"
+            android:src="@drawable/bus"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="431dp">
+
+        </ImageButton>
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:width="300dp"
+            android:background="@drawable/button_shape"
+            android:text="Payment"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

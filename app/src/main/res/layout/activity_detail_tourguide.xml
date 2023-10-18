@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail_tourguide">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/popinsbold"
+        android:text="Tour Guide"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <ImageView
+        android:layout_width="363dp"
+        android:layout_height="240dp"
+        android:src="@drawable/persegi_panjang"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183"
+        />
+
+
+    <ImageView
+        android:layout_width="326dp"
+        android:layout_height="171dp"
+        android:src="@drawable/img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/popinsbold"
+        android:text="Jaka"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src=""
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <TextView
+        android:layout_width="364dp"
+        android:layout_height="102dp"
+        android:fontFamily="@font/poppinsregular"
+        android:justificationMode="inter_word"
+        android:text="Jaka merupakan sesorang yang berpengetahuan dan memiliki peran sebagai fasilitator dengan memperkaya pengalaman perjalanan anda yang ingin menjelajahi lokasi atau tujuan wisata."
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/popinsbold"
+        android:text="Rating"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <ImageView
+        android:layout_width="364dp"
+        android:layout_height="64dp"
+        android:src="@drawable/persegi_panjang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="39dp"
+        android:src="@drawable/img_3"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <TextView
+        android:layout_width="31dp"
+        android:layout_height="19dp"
+        android:text="Jauza"
+        android:fontFamily="@font/popinsbold"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/poppinsregular"
+        android:justificationMode="inter_word"
+        android:text="I recently had the pleasure of going on a guided tour with Jaka and I can't say enough about what a fantastic experience it was. From start to finish, the tour was filled with unforgettable moments, and it was all thanks to our knowledgeable and passionate guide."
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <Button
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/popinsbold"
+        android:background="@drawable/button"
+        android:text="Payment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

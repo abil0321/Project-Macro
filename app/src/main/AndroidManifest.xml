@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WanderlustGuide"
+        tools:targetApi="31">
+        <activity
+            android:name=".kendaraanwisata"
+            android:exported="false" />
+        <activity
+            android:name=".detail_tourguide"
+            android:exported="false" />
+        <activity
+            android:name=".notifikasi"
+            android:exported="false" />
+        <activity
+            android:name=".notifikasipembayaran"
+            android:exported="false" />
+        <activity
+            android:name=".kotakmasuk"
+            android:exported="false" />
+        <activity
+            android:name=".transaksi"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran"
+            android:exported="false" />
+        <activity
+            android:name=".penginapan_dan_kendaraan"
+            android:exported="false" />
+        <activity
+            android:name=".travel"
+            android:exported="false" />
+        <activity
+            android:name=".promo"
+            android:exported="false" />
+        <activity
+            android:name=".pengetahuanpage2"
+            android:exported="false" />
+        <activity
+            android:name=".pengetahuanpage1"
+            android:exported="false" />
+        <activity
+            android:name=".pengetahuan"
+            android:exported="false" />
+        <activity
+            android:name=".tourguide"
+            android:exported="false" />
+        <activity
+            android:name=".infospesifikasiwisata2"
+            android:exported="false" />
+        <activity
+            android:name=".editprofile"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
+            android:name=".rekomendasi_wisata"
+            android:exported="false" />
+        <activity
+            android:name=".welcomeback"
+            android:exported="false" />
+        <activity
+            android:name=".infospesifikwisata"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

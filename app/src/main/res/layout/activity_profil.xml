@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profil">
+
+    <TextView
+        android:layout_width="169dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsbold"
+        android:text="  Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/background"
+        android:fontFamily="@font/poppinsbold"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-42dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/background"
+        android:fontFamily="@font/poppinsbold"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/background"
+        android:fontFamily="@font/poppinsbold"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
